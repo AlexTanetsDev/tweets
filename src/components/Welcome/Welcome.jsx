@@ -8,7 +8,7 @@ export const Welcome = () => {
       <WelcomeBox>
         <MainImage />
         <WelcomeTitle>Welcome to the tweets app!</WelcomeTitle>
-        <WelcomeBtn to={"/tweets"}>See tweets</WelcomeBtn>
+        <WelcomeBtn to={"/tweets"}>Tweets</WelcomeBtn>
       </WelcomeBox>
     </Container>
   );
