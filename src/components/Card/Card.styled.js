@@ -61,19 +61,16 @@ export const AvatarBorder = styled.div`
 `;
 
 export const Avatar = styled.span`
-  /* position: absolute;
-  top: -35px;
-  left: 153px; */
   display: block;
   width: 62px;
   height: 62px;
   z-index: 123;
   border-radius: 50%;
   background-image: url(${(p) => p.avatar});
+  background-size: cover;
 `;
 export const TweetsCount = styled.p`
   margin-top: 62px;
-  font-family: "Montserrat";
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -100,7 +97,6 @@ export const FollowBtn = styled.button`
   border-radius: 10.3108px;
   border: none;
   outline: none;
-  font-family: "Montserrat";
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;

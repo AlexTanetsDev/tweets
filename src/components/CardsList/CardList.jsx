@@ -6,7 +6,7 @@ export const CardsList = ({ users, setUsers }) => {
     <List>
       {users?.map((user) => (
         <Item key={user?.id}>
-          <Card user={user} setUsers={setUsers} />
+          <Card user={user} setUsers={setUsers} users={users} />
         </Item>
       ))}
     </List>
