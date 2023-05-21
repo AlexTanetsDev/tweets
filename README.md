@@ -1,7 +1,22 @@
 ![app_Image](https://github.com/AlexTanetsDev/tweets/raw/main/src/images/bgImg.png)
+
+
+
 This is tweets application, welcome!
 Here you can watch tweets, 
 follow users, sort tweets by following
+
+
+
+
+![app_Image](https://github.com/AlexTanetsDev/tweets/raw/main/src/images/appPhoto.png)
+
+
+
+
+
+
+
 
 
 
